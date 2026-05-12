@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #1a1a1a;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cta {
+  background: #c89b5a;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+
+.hero img {
+  width: 50%;
+  border-radius: 12px;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: white;
+}
+
+/* USE CASES */
+.use-cases {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* RINGS */
+.rings {
+  text-align: center;
+  padding: 50px;
+}
+
+.rings img {
+  width: 80%;
+}
+
+/* HOW */
+.how {
+  text-align: center;
+  padding: 50px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: white;
+} 
